@@ -1,3 +1,4 @@
+/*CSS reset*/
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -10,25 +11,16 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	border: 0;
+	
 	}
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
 	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
-ol, ul {
-	list-style: none;
-	}
+
+
 /* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
+
 caption, th, td {
 	font-weight: normal;
 	text-align: left;
@@ -58,12 +50,18 @@ blockquote, q {
         font-size: 1.6rem;
         line-height: 1.5;
         color: #4f4f4f;
+        font-family: 'Roboto Mono', monospace;
     }
     section{
         padding: 4% 0;
     }
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size:5rem;
+    }
     a{
         text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
     }
 
     /*header*/
@@ -94,7 +92,7 @@ blockquote, q {
     .top{
     position: relative;
     }
-    .left, right{
+    .left, .right{
         text-align: center;
         display:inline-block;
     }
@@ -110,4 +108,23 @@ blockquote, q {
         position: absolute;
         top: 45%;
     }
-    
+    /*footer styles*/
+    .pink{
+        text-align: center;
+        padding: 10px;
+        background-color: #DDB9A3;
+    }
+    .fuego{
+        text-align: center;
+        padding: 2rem;
+        width: 20%;
+    }
+    .pause{
+        padding: 6rem;
+        
+    }
+    .trolley{
+        text-align: center;
+        padding: 2rem;
+        width: 20%;
+    }
